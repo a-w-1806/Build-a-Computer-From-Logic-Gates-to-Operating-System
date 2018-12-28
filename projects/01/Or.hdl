@@ -14,5 +14,8 @@ CHIP Or {
     OUT out;
 
     PARTS:
-    // Put your code here:
+    Not (in=a, out=NotA);
+    Not (in=b, out=NotB);
+    And (a=NotA, b=NotB, out=and);
+    Not (in=and, out=out);
 }
