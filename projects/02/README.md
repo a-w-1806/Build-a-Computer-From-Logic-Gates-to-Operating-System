@@ -12,4 +12,5 @@
 - ALU
 ![alu](./images/ALU.png)
 ![aluTable](./images/ALU_table.png)
+Please note that out=x+y: **+** is **PLUS**, not **OR**!!!
 ![alu_control](./images/ALU_control_bits.png)
