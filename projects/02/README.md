@@ -1,16 +1,21 @@
 # Build Adders and ALU
 
-- HalfAdder
+## HalfAdder ##
 ![halfAdder](./images/HalfAdder.png)
-- FullAdder
+
+## FullAdder ##
 ![fullAdder](./images/FullAdder.png)
   - It is made up of two HalfAdders.
-- Add16
+
+## Add16 ##
 ![add16](./images/Adder_16.png)
-- Inc16
+
+## Inc16 ##
 ![inc16](./images/Incre_16.png)
-- ALU
+
+## ALU ##
 ![alu](./images/ALU.png)
 ![aluTable](./images/ALU_table.png)
-Please note that out=x+y: **+** is **PLUS**, not **OR**!!!
+- Please note that out=x+y: **+** is **PLUS**, not **OR**!!!
+
 ![alu_control](./images/ALU_control_bits.png)
