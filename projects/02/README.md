@@ -4,6 +4,7 @@
 ![halfAdder](./images/HalfAdder.png)
 - FullAdder
 ![fullAdder](./images/FullAdder.png)
+  - It is made up of two HalfAdders.
 - Add16
 ![add16](./images/Adder_16.png)
 - Inc16
