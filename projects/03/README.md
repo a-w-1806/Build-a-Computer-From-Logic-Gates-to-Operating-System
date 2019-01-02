@@ -1,6 +1,9 @@
 # Building Sequential logic chips!
 
 ## Bit
+- 1 bit Register
+
+![bit](./image/bit.png)
 
 ## Register
 
