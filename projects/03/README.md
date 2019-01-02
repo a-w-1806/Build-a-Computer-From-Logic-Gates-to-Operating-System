@@ -6,6 +6,9 @@
 ![bit](./image/bit.png)
 
 ## Register
+- 16-bit Register
+
+![register](./image/register.png)
 
 ## RAM8
 
