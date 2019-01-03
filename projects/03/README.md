@@ -1,5 +1,7 @@
 # Building Sequential logic chips!
 
+This time, we have another primitive chip given to me other than Nand, called DFF.
+
 ## Bit
 - 1 bit Register
 
