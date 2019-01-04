@@ -37,4 +37,14 @@ This time, we have another built-in chip given to us other than Nand, called *da
 ## RAM16K
 - Same principles as stated above.
 
-## PC
+## Program Counter (PC)
+- A computer must keep track of which instruction should be fetched and executed next
+- The PC contains the address of the instruction that will be fetched and executed next
+
+```
+if      (reset[t] == 1) out[t+1] = 0
+else if (load[t] == 1)  out[t+1] = in[t]
+else if (inc[t] == 1)   out[t+1] = out[t] + 1  (integer addition)
+else                    out[t+1] = out[t]
+```
+![PC](./image/PC.png)
