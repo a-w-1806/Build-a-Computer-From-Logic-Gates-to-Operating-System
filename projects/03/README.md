@@ -4,6 +4,7 @@ This time, we have another built-in chip given to us other than Nand, called *da
 
 ## DFF
 - Basically, it is a gate that can delay the input signal by one time unit.
+- Actually, DFF can also be built by Nand gates! The idea is two use two Nand gates, and connect each of their output to another Nand gates' input.
 
 ![dff](./image/dff.png)
 
