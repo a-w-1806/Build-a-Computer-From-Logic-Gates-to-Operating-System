@@ -69,3 +69,14 @@ It recognizes three 16-bit registers:
 ## Input / Output
 
 Now we are going to connect a display unit and a keyboard to our Hack Computer. But how are we going to make them work?
+
+### Display Unit
+
+![display](images/display.png)
+![map](images/MemoryMap.png)
+
+### Keyboard
+
+![kb](images/kb.png)
+![kbhow](images/kbhow.png)
+![charset](images/charset.png)
