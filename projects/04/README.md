@@ -47,7 +47,7 @@ Our Solution is: Memory Hierarchy:
 
 This is the computer we will actually build in [Project 5](https://github.com/Yuchen-Wang-SH/Build-a-Computer-From-Logic-Gates-to-Operating-System/tree/master/projects/05)!
 
-## Hack Machine Language
+## Hack Machine Language & Assembly Language
 
 It consists of:
 - 16-bit A-instructions
@@ -65,6 +65,9 @@ It recognizes three 16-bit registers:
 ### C-instruction
 ![C](images/C.png)
 ![C_Spec](images/CSpec.png)
+
+### Built-in symbols
+![builtin](images/builtin.png)
 
 ## Input / Output
 
