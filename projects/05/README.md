@@ -34,11 +34,21 @@ The Solutions:
 
 ### A-instructions
 ![A](images/A.png)
+For the C of Mux16:
+- If instruction is A, then Mux must output instruction, and C of A must be 1.
+- If *d1* = 1, C of A must be 1.
+If A-instruction, only A can change. So control bits of D and writeM should AND with instruction[15].
 
 ### C-instructions
 ![C1](images/C_1.png)
 ![C2](images/C_2.png)
 ![C3](images/C_3.png)
+Insights:
+1. Comparing to the spec of ALU in Project 2:
+   1. x is D;
+   2. y is A or M. If *a* in C-instructions is 0, it is A. Else, it is M.
+   3. *c1* ~ *c6* are the control bits of ALU.
+2. If *d1* is 1, *dest* must include A. *d2* D, *d3* M.
 
 ### Control
 ![control](images/control.png)
