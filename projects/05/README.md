@@ -49,6 +49,8 @@ Insights:
    2. y is A or M. If *a* in C-instructions is 0, it is A. Else, it is M.
    3. *c1* ~ *c6* are the control bits of ALU.
 2. If *d1* is 1, *dest* must include A. *d2* D, *d3* M.
+3. You can only jump in C instructions. (use AND)
+4. D, M can only be changed in C instructions. (use AND)
 
 ### Control
 ![control](images/control.png)
