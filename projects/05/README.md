@@ -1,5 +1,6 @@
 # Computer Architecture
 
+![hier](images/hier.png)
 ![buses](images/buses.png)
 
 ## Basic CPU loop
@@ -25,6 +26,7 @@ The Solutions:
 
 ## Hack Computer
 ![computer](images/computer.png)
+![implementation](images/hack.png)
 
 ## Hack CPU
 ![CPU_Interface](images/CPUInterface.png)
@@ -40,3 +42,7 @@ The Solutions:
 
 ### Control
 ![control](images/control.png)
+
+## Hack Memory
+![memory](images/memory.png)
+![ROM](images/ROM.png)
