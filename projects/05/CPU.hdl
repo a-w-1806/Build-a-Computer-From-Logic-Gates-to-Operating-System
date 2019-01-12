@@ -40,17 +40,17 @@ CHIP CPU {
 
     PARTS:
     Not(in=instruction[15], out=notOp);
-    Mux16(a=ALU_Output, b=instruction, sel=notOp, out=leftMux);
+    Mux16(a=ALUOutput, b=instruction, sel=notOp, out=leftMux);
     // Control bit of A Register
     And(a=instruction[15], b=instruction[5], out=loadAInCInstructions);
-    Or(a=notOp, b=loadAInCInstructions, out=A_Control);
-    Register(in=leftMux, load=A_Control, out=A_Out, out[0..14]=addressM);
+    Or(a=notOp, b=loadAInCInstructions, out=AControl);
+    ARegister(in=leftMux, load=AControl, out=AOut, out[0..14]=addressM);
     // Middle Mux.
-    Mux16(a=A_Out, b=inM, sel=instruction[12], out=Middle_Mux_Out);
+    Mux16(a=AOut, b=inM, sel=instruction[12], out=MiddleMuxOut);
     // Control bit of D.
-    And(a=instruction[4], b=instruction[15], out=D_Control);
-    Register(in=ALU_Output, load=D_Control, out=D_Out);
-    ALU(x=D_Out, y=Middle_Mux_Out, zx=c1, nx=c2, zy=c3, ny=c4, f=c5, no=c6, out=ALU_Output, out=outM, zr=zr, ng=ng);
+    And(a=instruction[4], b=instruction[15], out=DControl);
+    DRegister(in=ALUOutput, load=DControl, out=DOut);
+    ALU(x=DOut, y=MiddleMuxOut, zx=instruction[11], nx=instruction[10], zy=instruction[9], ny=instruction[8], f=instruction[7], no=instruction[6], out=ALUOutput, out=outM, zr=zr, ng=ng);
     // writeM.
     And(a=instruction[3], b=instruction[15], out=writeM);
     // the jump condition of program counter
@@ -64,5 +64,5 @@ CHIP CPU {
     Or(a=ngAndJ1, b=zrAndJ2, out=orFirstTwo);
     Or(a=orFirstTwo, b=orThird, out=load);
     Not(in=load, out=notLoad);
-    PC(in=A_Out, load=load, inc=notLoad, reset=reset, out[0..14]=pc);
+    PC(in=AOut, load=load, inc=notLoad, reset=reset, out[0..14]=pc);
 }
