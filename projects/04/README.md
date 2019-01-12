@@ -1,5 +1,9 @@
 # Machine Language
 
+In this week, I write two assembly programs which can:
+- multiply R0 and R1 and store the result in R2
+- blacken the screen whenever a key is pressed
+
 ## Computer System
 
 ![system](images/system.png)
