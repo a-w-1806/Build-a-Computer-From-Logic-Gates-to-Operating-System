@@ -22,3 +22,21 @@ The Solutions:
 ![instruction](images/InstructionRegister.png)
 2. Harvard Architecture
 ![harvard](images/harvard.png)
+
+## Hack Computer
+![computer](images/computer.png)
+
+## Hack CPU
+![CPU_Interface](images/CPUInterface.png)
+![CPU_Implementation](images/CPUImplementation.png)
+
+### A-instructions
+![A](images/A.png)
+
+### C-instructions
+![C1](images/C_1.png)
+![C2](images/C_2.png)
+![C3](images/C_3.png)
+
+### Control
+![control](images/control.png)
