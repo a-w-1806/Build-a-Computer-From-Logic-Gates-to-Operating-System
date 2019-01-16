@@ -2,7 +2,7 @@
 
 In this project, I wrote HDL to:
 1. implement the CPU
-2. implement the Memory(RAM and memory mapping for screen and keyboard)
+2. implement the Memory (RAM and memory mapping for screen and keyboard)
 3. construct the whole 16-bit Hack Computer!
 
 ![hier](images/hier.png)
