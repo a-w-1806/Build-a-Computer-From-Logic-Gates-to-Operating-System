@@ -1,3 +1,4 @@
 [submodule "projects/06/Hack-Assembler"]
 	path = projects/06/Hack-Assembler
 	url = https://github.com/Yuchen-Wang-SH/Hack-Assembler
+	ignore = dirty
