@@ -5,3 +5,4 @@
 [submodule "projects/07/Jack-Virtual-Machine-Translator"]
 	path = projects/07/Jack-Virtual-Machine-Translator
 	url = https://github.com/Yuchen-Wang-SH/Jack-Virtual-Machine-Translator
+	ignore = dirty
